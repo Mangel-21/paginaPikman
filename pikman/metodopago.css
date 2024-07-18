@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+    color: #ff007f; /* Letras rosadas brillantes */
+    font-family: Arial, sans-serif; /* Cambia la fuente según tus preferencias */
+  }
+  
+  .payment-container {
+    background-color: #000;
+    color: #ff007f; /* Letras rosadas brillantes */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.5); /* Sombra rosada brillante */
+  }
+  
+  #products, #quantity, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #ff007f; /* Borde rosado brillante */
+    background-color: #000;
+    color: #ff007f; /* Letras rosadas brillantes */
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #products, #quantity {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  button:hover {
+    background-color: #ff007f; /* Cambia a rosado brillante al pasar el mouse */
+    color: #000; /* Letras negras al pasar el mouse */
+  }
+  
